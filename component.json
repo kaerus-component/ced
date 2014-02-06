@@ -1,0 +1,28 @@
+{
+  "name": "ced",
+  "version": "0.1.0",
+  "repo": "kaerus-component/ced",
+  "description": "Content editor",
+  "keywords": [
+    "contenteditable",
+    "wysiwyg",
+    "editor"
+  ],
+  "author": {
+    "name": "Kaerus",
+    "email": "contact@kaerus.com",
+    "web": "http://kaerus.com"
+  },
+  "contributors": [
+    "anders elo <anders@kaerus.com>"
+  ],
+  "dependencies": {
+    "kaerus-component/elem": "*"
+  },
+  "scripts": [
+    "index.js",
+    "commander.js"
+  ],
+  "license": "Apache2_0",
+  "remotes": []
+}

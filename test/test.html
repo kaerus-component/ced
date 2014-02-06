@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+	<title>a naive content editor</title>
+	<script src="../build/build.js"></script>
+</head>
+<body>
+	<div id="editor">
+	</div>
+
+	<div contenteditable>
+		Hello, edit me
+	</div>
+	<script>
+		ced = require('ced');
+		new ced("#editor");
+	</script>
+</body>
+</html>
